@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    
+</head>
+<body>
+    <div class="wrapper">
+       <H1>Log In</H1>
+       {% if messages %}
+       {% for message in messages %}
+       <h3 style="color:red">{{message}}</h3>
+       {% endfor %}
+       {% endif %}
+        <form action="#" method="post">
+            {% csrf_token %}
+
+            <div class="input-box">
+                <input type="text" name="uname" placeholder="Enter your name" required >
+            </div> 
+            <br>
+            
+            <br>
+            <div class="input-box">
+                <input type="password" name="pass" placeholder="Enter your password" required>
+            </div> 
+            <br>
+            <div class="policy"></div>
+            <div class="input-box-button">
+                <input type="submit" value="Log In">
+            </div> 
+            <div class="text">
+                <h3>Dont have an account: <a href="{% url "register" %}">Register now</a></h3>
+            </div>
+            <div class="text">
+                <h3>forgot password: <a href="">Reset</a></h3>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
