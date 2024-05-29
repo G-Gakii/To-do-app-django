@@ -9,8 +9,8 @@ This is a To-Do app build using django framework of python. Here user can create
  3. Bootstrap
 
 ## Running the project
-   cd toDoProject
-   python3 manage.py runserver
+   * cd toDoProject
+   * python3 manage.py runserver
 
 ## Features
  ###  Adding task
