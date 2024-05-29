@@ -14,12 +14,12 @@ This is a To-Do app build using django framework of python. Here user can create
 
 ## Features
  ###  Adding task
-   ![Add task](images/addtask.PNG)
+   ![Add task](toDoProject/images/addtask.PNG)
 
 ### mark completed
-  ![completed](images/markcomplete.PNG)
+  ![completed](toDoProject/images/markcomplete.PNG)
 
 ### Delete task
-  ![delete](images/delete.PNG)
+  ![delete](toDoProject/images/delete.PNG)
 
    
